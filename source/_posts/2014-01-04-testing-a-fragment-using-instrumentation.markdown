@@ -4,7 +4,7 @@ title: "Testing a fragment using instrumentation"
 date: 2014-01-04 12:05:50 +0200
 comments: true
 categories: [Android, Instrumentation]
-published: false
+published: true
 ---
 Fragments are core component in Android, but somehow the Android SDK does not provide out of the box
 way to test them.  
