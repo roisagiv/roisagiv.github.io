@@ -8,7 +8,7 @@ published: true
 ---
 Fragments are core component in Android, but somehow the Android SDK does not provide out of the box
 way to test them.  
-Activities, ContentProviders, Services has thier corresponding class (ActivityInstrumentationTestCase2, ProviderTestCase2 and ServiceTestCase), but where is my FragmentTestCase? 
+Activities, ContentProviders, Services has their corresponding class (ActivityInstrumentationTestCase2, ProviderTestCase2 and ServiceTestCase), but where is my FragmentTestCase?
 
 One trick I use is an empty Activity class just to contain the Fragment I want to test, and use ActivityInstrumentationTestCase2 to contain my tests.
 
