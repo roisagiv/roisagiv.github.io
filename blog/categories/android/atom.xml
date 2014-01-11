@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Android | Let's do it the hard way!]]></title>
   <link href="http://roisagiv.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://roisagiv.github.io/"/>
-  <updated>2014-01-05T21:11:30+02:00</updated>
+  <updated>2014-01-11T16:12:07+02:00</updated>
   <id>http://roisagiv.github.io/</id>
   <author>
     <name><![CDATA[Roi Sagiv]]></name>
@@ -20,7 +20,7 @@
     <id>http://roisagiv.github.io/blog/2014/01/04/testing-a-fragment-using-instrumentation</id>
     <content type="html"><![CDATA[<p>Fragments are core component in Android, but somehow the Android SDK does not provide out of the box
 way to test them.<br/>
-Activities, ContentProviders, Services has thier corresponding class (ActivityInstrumentationTestCase2, ProviderTestCase2 and ServiceTestCase), but where is my FragmentTestCase?</p>
+Activities, ContentProviders, Services has their corresponding class (ActivityInstrumentationTestCase2, ProviderTestCase2 and ServiceTestCase), but where is my FragmentTestCase?</p>
 
 <p>One trick I use is an empty Activity class just to contain the Fragment I want to test, and use ActivityInstrumentationTestCase2 to contain my tests.</p>
 
