@@ -4,7 +4,7 @@ title: "Testing a loader using instrumentation"
 date: 2014-01-06 20:51:07 +0200
 comments: true
 categories: [Android, Instrumentation]
-published: false
+published: true
 ---
 
 One of the biggest challenges when authoring instrumentation tests in Android is testing async code.
